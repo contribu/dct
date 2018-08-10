@@ -2,9 +2,12 @@
 
 ### Features
 
+#### DONE
 - DCTII, DCTIII supported
 - non power of 2 supported
-- O(N) complexity (TODO: O(logN))
+
+#### TODO
+- O(logN) complexity implementation
 
 ### Products using this gem
 

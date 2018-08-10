@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'Pure ruby implementation of DCT'
   spec.description   = 'Pure ruby implementation of DCT'
-  spec.homepage      = 'https://github.com/contribu/dct.git'
+  spec.homepage      = 'https://github.com/contribu/dct'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
