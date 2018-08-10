@@ -1,8 +1,14 @@
 # Dct
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dct`. To experiment with that code, run `bin/console` for an interactive prompt.
+### Features
 
-TODO: Delete this and the text above, and describe your gem
+- DCTII, DCTIII supported
+- non power of 2 supported
+- O(N) complexity (TODO: O(logN))
+
+### Products using this gem
+
+- [MusicGlass](http://musicglass.net)
 
 ## Installation
 
@@ -22,9 +28,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### DCTII
+
+```ruby
+# prepare input
+input = (1..3).map { |i| i}
+
+# transform
+output = Dct.dct_type2(input)
+```
+
+### DCTIII
+```ruby
+# prepare input
+input = (1..3).map { |i| i}
+
+# transform
+output = Dct.dct_type3(input)
+```
 
 ## Development
+
+Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/dct`. To experiment with that code, run `bin/console` for an interactive prompt.
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
@@ -32,7 +57,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/dct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/contribu/dct.
 
 ## License
 
